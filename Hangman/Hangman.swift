@@ -51,6 +51,7 @@ class Hangman {
         return result
     }
     
+    //leters gussed so far.
     func guesses() -> String {
         if guessedLetters!.count > 0 {
             return ""
